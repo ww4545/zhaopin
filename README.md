@@ -24,12 +24,13 @@
 |react-app-rewired|按需加载，改版后已经无法使用了，需要使用customize-cra|
 |customize-cra|按需加载核心组件|
 |react-router-dom|4.0经过封装的router|
-|redux||
-|react-redux||
+|redux|数据流处理库|
+|react-redux|数据流封装库|
 |redux-thunk|异步数据处理工具，|
 |redux-devtools-extension|redux数据流查看工具，浏览器需要安装redux插件，查看reactDOM可以下载react插件，推荐使用opera浏览器|
 |redux-persist|redux数据持久化工具，防止强制刷新后，store丢失导致页面无法访问，这个数据持久如果细致的做也非常麻烦|
 |@babel/plugin-proposal-decoreators|老版本的是（babel-plugin-transform-decorators-legacy）这个是装饰器插件，可以节省代码量，使用前需要配置按需加载|
-|Umi|这个是推荐使用的，一个专门配置路由的第三方很强大，不过没有用，哈哈哈|
+|Umi|这个是推荐使用的，一个专门配置路由的第三方很强大，不过没有用，哈哈哈,中文文档：https://umijs.org/zh/guide/|
 |axios|ajax请求工具|
 |qs|form提交或者数据提交用来格式化上传下载数据|
+|*注意|有些模块在build打包的时候要注意，有些第三方可以不用打包，提高性能|
